@@ -1,0 +1,43 @@
+.add-option-error{
+    color: $off-white;
+    font-style: italic;
+    margin: $m-size 0 0 0;
+    padding: 0 $m-size;
+
+}
+
+.add-option{
+    display: flex;
+    flex-direction: column;
+    padding: $m-size;
+    
+}
+
+.add-option-button{
+    margin-bottom: $s-size;
+}
+
+.add-option__input{
+    flex-grow: 1;
+    border: none;
+    background: #333735;
+    border-bottom: .4rem solid darken(#333735, 10%);
+    border-right: .4rem solid darken(#333735, 10%);
+    color: white;
+    font-weight: 500;
+    font-size: $m-size;
+    margin: 0 0 $s-size 0;
+    padding: $s-size;
+ }
+
+ @media (min-width: $desktop-breakpoint){
+        *{
+            color: olive;
+            .add-option{
+                flex-direction: row;
+            } 
+            .add-option__input{
+                margin-right: 0 $s-size 0 0;
+            }          
+        }
+ }

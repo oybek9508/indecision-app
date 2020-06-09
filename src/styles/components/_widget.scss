@@ -1,0 +1,30 @@
+.widget{
+    background: $light_blue;
+    margin-bottom: $xl-size;
+    border-bottom: .4rem solid darken($light_blue, 16%);
+    border-right: .4rem solid darken($light_blue, 16%);
+}
+
+.widget--header{
+    background: $blue;
+    color: $off-white;
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size;
+    border-bottom: .2rem solid darken($blue, 16%);
+    // border-right: .2rem solid darken($blue, 16%);
+}
+
+.message{
+    color: $off-white;
+    margin: 0;
+    font-size: $m-size;
+    padding: $l-size;
+    text-align: center;
+    border-bottom: 1px solid lighten($light_blue, 10%);
+    // border-right: 1px solid lighten($light_blue, 10%);
+}
+
+.w_header{
+    margin: 0;
+}
